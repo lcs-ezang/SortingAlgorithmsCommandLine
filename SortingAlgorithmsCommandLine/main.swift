@@ -23,8 +23,10 @@ print("Press any key to generate the unsorted list.", terminator: "")
 // Wait for a key to be pressed
 let input = readLine()
 
-// Make an empty array / list
+// Make an empty unsorted array / list
 var unsorted : [Int] = []
+// Make a unsorted list
+var sorted : [Int] = []
 
 // Populate the array
 for _ in 1...10 {
@@ -42,10 +44,8 @@ print("-----")
 // ----------- Write code to sort the array here -----------
 print("Now sorting the array...")
 
-// Make a unsorted list
-var sorted : [Int] = []
 
-//Keep repeating untill there is not values in the unsorted
+//Keep repeating until there are not values in the unsorted
 
 while unsorted.count > 0 {
     
